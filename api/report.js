@@ -66,4 +66,4 @@ module.exports = async function handler(req, res) {
   }
 };
 
-module.exports.config = { api: { bodyParser: false }, maxDuration: 300 };
+module.exports.config = { api: { bodyParser: false }, maxDuration: 60 };
