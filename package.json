@@ -1,0 +1,9 @@
+{
+  "name": "interview-notes-local",
+  "version": "0.1.0",
+  "private": true,
+  "description": "로컬 면담 녹음과 파일 저장을 위한 개인용 웹앱",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
