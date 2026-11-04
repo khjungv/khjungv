@@ -1,0 +1,6 @@
+{
+  "outputDirectory": "public",
+  "functions": {
+    "api/report.js": { "maxDuration": 300 }
+  }
+}
