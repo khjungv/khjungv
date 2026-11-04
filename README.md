@@ -4,7 +4,7 @@ Vercel에서 호스팅하는 개인용 웹앱입니다. 녹음 원본과 기록�
 
 ## Vercel 배포
 
-1. GitHub 저장소 `khjungv/khjungv`를 Vercel 프로젝트에 연결하고 프레임워크는 **Other**로 선택합니다.
+1. GitHub 저장소 `khjungv/khjungv`를 Vercel 프로젝트에 연결합니다. `vercel.json`에서 프레임워크를 Other로 고정하고 정적 화면 출력 폴더를 `public/`로 설정합니다.
 2. 프로젝트 Settings → Environment Variables에 `GROQ_API_KEY`와 `APP_ACCESS_TOKEN`을 추가합니다. 전자는 Groq에서 발급한 API 키이고, 후자는 본인만 아는 긴 임의 암호입니다. 둘 다 GitHub에 저장하지 않습니다.
 3. Deployments에서 배포합니다. `vercel.json`은 `public/`을 정적 웹 루트로, `api/report.js`를 서버리스 함수로 지정합니다.
 
