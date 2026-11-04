@@ -1,9 +1,10 @@
 {
-  "name": "interview-notes-local",
-  "version": "0.1.0",
+  "name": "interview-notes",
+  "version": "0.2.0",
   "private": true,
-  "description": "로컬 면담 녹음과 파일 저장을 위한 개인용 웹앱",
+  "description": "개인 브라우저 저장 방식의 면담 녹음·보고서 웹앱",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "vercel:dev": "vercel dev"
   }
 }
