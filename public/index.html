@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f7f5">
-  <title>면담 기록 | 로컬 녹음</title>
+  <title>면담 기록 | 개인 기기 저장</title>
   <style>
     :root{font-family:Inter,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;color:#202d2a;background:#f5f7f5;font-synthesis:none;text-rendering:optimizeLegibility}*{box-sizing:border-box}body{margin:0;min-height:100vh}.shell{max-width:1040px;margin:auto;padding:38px 26px 60px}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:42px}.brand{display:flex;gap:12px;align-items:center;font-weight:700;letter-spacing:-.03em}.mark{width:38px;height:38px;border-radius:12px;background:#164f43;color:white;display:grid;place-items:center;font-size:18px}.local{font-size:12px;color:#547067;background:#e7efeb;padding:8px 12px;border-radius:20px}.eyebrow{text-transform:uppercase;font-size:11px;letter-spacing:.12em;color:#598175;font-weight:700;margin:0 0 12px}.intro h1{font-size:34px;letter-spacing:-.055em;margin:0 0 10px}.intro p{margin:0;color:#667671;line-height:1.7}.layout{display:grid;grid-template-columns:1.12fr .88fr;gap:20px;margin-top:28px}.card{background:#fff;border:1px solid #e1e8e4;border-radius:20px;padding:24px;box-shadow:0 8px 26px #1b3d2d08}.card h2{font-size:17px;letter-spacing:-.03em;margin:0 0 19px}.field{margin-bottom:16px}.field label{display:block;font-size:12px;font-weight:700;color:#51645d;margin-bottom:7px}.field input{width:100%;height:44px;border:1px solid #dce5e0;border-radius:10px;padding:0 12px;font:inherit;color:inherit;background:#fbfcfb}.consent{display:flex;gap:9px;align-items:flex-start;margin:-2px 0 17px;font-size:12px;line-height:1.55;color:#53665e;cursor:pointer}.consent input{accent-color:#164f43;margin:2px 0 0}.recorder{background:#f2f7f4;border-radius:16px;padding:19px;display:flex;align-items:center;justify-content:space-between;gap:14px}.rec-status{display:flex;align-items:center;gap:9px;font-weight:650;font-size:13px}.dot{width:9px;height:9px;border-radius:50%;background:#a8b5af}.recording .dot{background:#da5348;box-shadow:0 0 0 5px #da53481c;animation:pulse 1.4s infinite}@keyframes pulse{50%{box-shadow:0 0 0 8px #da534805}}.timer{font-variant-numeric:tabular-nums;color:#50635d;font-size:13px;margin-top:5px;margin-left:18px}.actions{display:flex;gap:8px}.button{border:0;border-radius:10px;height:42px;padding:0 16px;font:inherit;font-weight:700;cursor:pointer;transition:.15s}.button:disabled{opacity:.45;cursor:not-allowed}.primary{background:#164f43;color:white}.primary:hover:not(:disabled){background:#0f4036}.pause{background:#e5ece8;color:#344f45}.stop{background:#f8e9e7;color:#9b3730}.stop:hover:not(:disabled){background:#f2d9d6}.hint{font-size:12px;color:#7a8882;line-height:1.6;margin:14px 0 0}.notice{display:none;margin-top:13px;padding:11px 13px;border-radius:10px;font-size:12px;line-height:1.55}.notice.show{display:block}.notice.info{background:#eaf1ed;color:#31594c}.notice.error{background:#fff0ee;color:#923c34}.list-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}.list-head h2{margin:0}.count{font-size:11px;color:#6b7c75}.records{display:flex;flex-direction:column;gap:10px;max-height:700px;overflow:auto}.record{border:1px solid #e7ece9;border-radius:13px;padding:13px}.record-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.record-title{font-size:13px;font-weight:700;overflow-wrap:anywhere}.record-date{font-size:11px;color:#7a8983;margin-top:5px}.record-size{font-size:10px;color:#84928c;white-space:nowrap}.record audio{width:100%;height:34px;margin-top:10px}.record-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.small-button{border:1px solid #d8e2dc;border-radius:8px;background:#fff;color:#31594c;padding:8px 11px;font:inherit;font-size:11px;font-weight:700;cursor:pointer}.small-button:disabled{opacity:.5;cursor:wait}.report-note{font-size:11px;line-height:1.6;color:#8a6c37;background:#fbf6e9;border-radius:8px;padding:9px 10px;margin-top:10px}.report-panel{display:grid;gap:8px;margin-top:12px}.report-panel label{font-size:11px;font-weight:700;color:#5c6c65}.report-panel textarea{width:100%;min-height:150px;resize:vertical;border:1px solid #dce5e0;border-radius:9px;padding:10px;font-family:inherit;font-size:12px;line-height:1.6;color:#26342f;background:#fcfdfc}.report-panel textarea.transcript{min-height:120px}.record-error{font-size:11px;color:#a13d34;line-height:1.5;margin-top:8px}.empty{padding:34px 14px;text-align:center;color:#87938e;font-size:12px;line-height:1.7;border:1px dashed #dce5e0;border-radius:13px}.footer{margin-top:24px;color:#83908a;font-size:11px;line-height:1.7}.footer strong{color:#596b64}@media(max-width:740px){.shell{padding:24px 16px 40px}.top{margin-bottom:30px}.intro h1{font-size:28px}.layout{grid-template-columns:1fr}.card{padding:20px}.recorder{align-items:flex-start;flex-direction:column}.actions{width:100%}.actions .button{flex:1}}
   </style>
 </head>
 <body>
   <main class="shell">
-    <header class="top"><div class="brand"><span class="mark" aria-hidden="true">●</span><span>면담 기록</span></div><span class="local">이 노트북에서 실행 중</span></header>
-    <section class="intro"><p class="eyebrow">LOCAL INTERVIEW RECORDER</p><h1>면담에 집중하세요.</h1><p>녹음은 노트북에 저장됩니다. 원할 때 Groq AI로 전사와 상담보고서 초안을 생성할 수 있습니다.</p></section>
+    <header class="top"><div class="brand"><span class="mark" aria-hidden="true">●</span><span>면담 기록</span></div><span class="local">이 브라우저에 저장</span></header>
+    <section class="intro"><p class="eyebrow">PRIVATE INTERVIEW RECORDER</p><h1>면담에 집중하세요.</h1><p>녹음과 기록은 이 브라우저의 기기에 저장됩니다. 보고서 생성 시 선택한 음성이 Groq API로 전송됩니다.</p></section>
     <div class="layout">
       <section class="card" aria-labelledby="new-title">
         <h2 id="new-title">새 면담 녹음</h2>
@@ -25,14 +25,14 @@
           <div class="actions"><button class="button primary" id="start">녹음 시작</button><button class="button pause" id="pause" disabled>일시 정지</button><button class="button stop" id="stop" disabled>녹음 종료</button></div>
         </div>
         <div class="notice" id="notice" role="status" aria-live="polite"></div>
-        <p class="hint">녹음을 시작하면 브라우저가 마이크 권한을 요청합니다. 잠시 멈추려면 일시 정지를 누르세요. 녹음 종료 후 저장 완료를 확인한 다음 탭을 닫아주세요.</p>
+        <p class="hint">녹음을 시작하면 브라우저가 마이크 권한을 요청합니다. 잠시 멈추려면 일시 정지를 누르세요. 저장된 자료는 현재 브라우저 프로필에 보관됩니다. 브라우저 데이터 삭제나 기기 변경 전 내보낸 파일을 보관하세요.</p>
       </section>
       <section class="card" aria-labelledby="saved-title">
         <div class="list-head"><h2 id="saved-title">저장된 녹음</h2><span class="count" id="count">0개</span></div>
         <div class="records" id="records"><div class="empty">저장된 녹음이 아직 없습니다.<br>첫 면담을 녹음하면 이곳에서 다시 들을 수 있습니다.</div></div>
       </section>
     </div>
-    <p class="footer"><strong>저장 위치</strong> 이 프로젝트 폴더의 <code>data/recordings</code> 및 <code>data/reports</code><br>보고서 생성 버튼을 누르면 녹음과 전사문이 Groq API로 전송됩니다. 생성된 전사문과 보고서는 이 노트북에 저장되며 AI 초안은 반드시 검토·수정해주세요.</p>
+    <p class="footer"><strong>저장 위치</strong> 이 브라우저의 IndexedDB (현재 기기·브라우저에 한정)<br>보고서 생성 버튼을 누르면 녹음이 Vercel 함수를 거쳐 Groq API로 전송되고, 전사문과 보고서는 브라우저에 저장됩니다. AI 초안은 반드시 검토·수정해주세요. 4MB가 넘는 녹음은 Vercel 요청 한도 때문에 보고서 생성이 제한됩니다.</p>
   </main>
   <script>
     const $ = id => document.getElementById(id);
@@ -41,6 +41,11 @@
     $('date').value = (()=>{const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`})();
     $('auto-report').checked=localStorage.getItem('auto-report-after-save')==='true';
     $('auto-report').addEventListener('change',()=>localStorage.setItem('auto-report-after-save',String($('auto-report').checked)));
+
+    const DB_NAME='interview-records', DB_VERSION=1, STORE='records';
+    function openDB(){return new Promise((resolve,reject)=>{const request=indexedDB.open(DB_NAME,DB_VERSION);request.onupgradeneeded=()=>request.result.createObjectStore(STORE,{keyPath:'id'});request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);});}
+    async function putRecord(record){const db=await openDB();return new Promise((resolve,reject)=>{const tx=db.transaction(STORE,'readwrite');tx.objectStore(STORE).put(record);tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error);});}
+    async function getRecords(){const db=await openDB();return new Promise((resolve,reject)=>{const request=db.transaction(STORE).objectStore(STORE).getAll();request.onsuccess=()=>resolve(request.result.sort((a,b)=>b.createdAt.localeCompare(a.createdAt)));request.onerror=()=>reject(request.error);});}
 
     function showNotice(message, kind='info') { const el=$('notice'); el.textContent=message; el.className=`notice show ${kind}`; }
     function formatTime(seconds) { return `${String(Math.floor(seconds/60)).padStart(2,'0')}:${String(seconds%60).padStart(2,'0')}`; }
@@ -99,17 +104,15 @@
     async function saveRecording() {
       const blob=new Blob(chunks,{type:recorder.mimeType||'audio/webm'});
       if(!blob.size){statusEl.textContent='저장 실패';startButton.disabled=false;showNotice('녹음 데이터가 비어 있어 저장하지 못했습니다.','error');return;}
-      const params=new URLSearchParams({title:$('title').value,date:$('date').value});
       try {
-        const response=await fetch(`/api/recordings?${params}`,{method:'POST',headers:{'Content-Type':blob.type},body:blob});
-        const result=await response.json(); if(!response.ok)throw new Error(result.error||'저장에 실패했습니다.');
+        const record={id:`${Date.now()}-${crypto.randomUUID()}`,title:$('title').value.trim()||'제목 없는 면담',date:$('date').value,filename:'recording',mimeType:blob.type||'audio/webm',size:blob.size,createdAt:new Date().toISOString(),audio:blob,transcript:'',report:''};
+        await putRecord(record);
         timerEl.textContent=formatTime(elapsedBeforePause); statusEl.textContent='저장 완료'; startButton.disabled=!$('ready').checked;
-        showNotice('녹음이 노트북에 저장되었습니다.'); await loadRecords();
+        showNotice('녹음이 이 브라우저의 로컬 저장소에 저장되었습니다.'); await loadRecords();
         if($('auto-report').checked){
-          statusEl.textContent='상담보고서 작성 중';showNotice('녹음 파일을 Groq로 전송해 전사와 보고서를 생성하고 있습니다. 녹음 원본은 노트북에 보관됩니다.');
+          statusEl.textContent='상담보고서 작성 중';showNotice('녹음 파일을 Groq로 전송해 전사와 보고서를 생성하고 있습니다. 원본은 브라우저에 보관됩니다.');
           try{
-            const response=await fetch(`/api/recordings/${encodeURIComponent(result.id)}/report`,{method:'POST'});const reportResult=await response.json();
-            if(!response.ok)throw new Error(reportResult.error||'상담보고서 생성에 실패했습니다.');
+            const result=await requestReport(record); await putRecord({...record,...result});
             statusEl.textContent='보고서 저장 완료';showNotice('상담보고서와 전사문을 노트북에 저장했습니다. 생성 결과를 검토해주세요.');await loadRecords();
           }catch(error){statusEl.textContent='녹음 저장 완료';showNotice(`녹음은 저장되었습니다. 자동 보고서 생성 실패: ${error.message} 저장된 기록에서 다시 시도할 수 있습니다.`,'error');}
         }
@@ -118,13 +121,16 @@
     function formatSize(bytes){return bytes<1024*1024?`${Math.max(1,Math.round(bytes/1024))} KB`:`${(bytes/1024/1024).toFixed(1)} MB`;}
     function node(tag,cls,text){const el=document.createElement(tag);if(cls)el.className=cls;if(text!==undefined)el.textContent=text;return el;}
     function makeButton(label,onClick){const b=node('button','small-button',label);b.type='button';b.addEventListener('click',onClick);return b;}
+    async function requestReport(record){
+      const response=await fetch(`/api/report?title=${encodeURIComponent(record.title)}&date=${encodeURIComponent(record.date)}&mimeType=${encodeURIComponent(record.mimeType)}`,{method:'POST',headers:{'Content-Type':record.mimeType},body:record.audio});
+      const result=await response.json();if(!response.ok)throw new Error(result.error||'생성에 실패했습니다.');return result;
+    }
     async function generateReport(record,button,errorEl){
-      if(record.size>25*1024*1024){errorEl.textContent='Groq 무료 전사 API의 파일 제한은 25MB입니다. 녹음은 로컬에 보존되어 있습니다.';return;}
+      if(record.size>4*1024*1024){errorEl.textContent='Vercel 함수 요청 한도(4.5MB)에 안전하게 맞추기 위해 4MB 이하 녹음만 처리할 수 있습니다. 원본 녹음은 브라우저에 보존됩니다.';return;}
       if(!window.confirm('이 녹음 파일을 Groq API로 전송해 한국어 전사문과 상담보고서 초안을 생성할까요?'))return;
       button.disabled=true;button.textContent='전사·보고서 생성 중…';errorEl.textContent='처리 중입니다. 원본 녹음은 계속 노트북에 보관됩니다.';errorEl.className='report-note';
       try{
-        const response=await fetch(`/api/recordings/${encodeURIComponent(record.id)}/report`,{method:'POST'});
-        const result=await response.json();if(!response.ok)throw new Error(result.error||'생성에 실패했습니다.');
+        const result=await requestReport(record);await putRecord({...record,...result});
         errorEl.textContent='보고서와 전사문을 노트북에 저장했습니다. 내용을 검토하고 필요하면 수정해주세요.';
         await loadRecords();
       }catch(error){errorEl.className='record-error';errorEl.textContent=error.message;button.disabled=false;button.textContent=record.report?'보고서 다시 생성':'상담보고서 생성';}
@@ -132,9 +138,8 @@
     async function saveEdits(record,transcript,report,button,errorEl){
       button.disabled=true;button.textContent='저장 중…';
       try{
-        const response=await fetch(`/api/recordings/${encodeURIComponent(record.id)}/report`,{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({transcript:transcript.value,report:report.value})});
-        const result=await response.json();if(!response.ok)throw new Error(result.error||'저장에 실패했습니다.');
-        errorEl.className='report-note';errorEl.textContent='수정 내용을 노트북에 저장했습니다.';
+        await putRecord({...record,transcript:transcript.value,report:report.value,editedAt:new Date().toISOString()});
+        errorEl.className='report-note';errorEl.textContent='수정 내용을 브라우저 저장소에 저장했습니다.';
       }catch(error){errorEl.className='record-error';errorEl.textContent=error.message;}
       finally{button.disabled=false;button.textContent='수정 내용 저장';}
     }
@@ -144,8 +149,7 @@
     }
     async function loadRecords(){
       try{
-        const response=await fetch('/api/recordings');if(!response.ok)throw new Error();
-        const records=await response.json();$('count').textContent=`${records.length}개`;
+        const records=await getRecords();$('count').textContent=`${records.length}개`;
         const container=$('records');container.replaceChildren();
         if(!records.length){container.innerHTML='<div class="empty">저장된 녹음이 아직 없습니다.<br>첫 면담을 녹음하면 이곳에서 다시 들을 수 있습니다.</div>';return;}
         for(const record of records){
@@ -154,11 +158,10 @@
           const text=document.createElement('div');const title=document.createElement('div');title.className='record-title';title.textContent=record.title;
           const date=document.createElement('div');date.className='record-date';date.textContent=record.date; text.append(title,date);
           const size=document.createElement('div');size.className='record-size';size.textContent=formatSize(record.size);top.append(text,size);
-          const audio=document.createElement('audio');audio.controls=true;audio.preload='none';audio.src=`/recordings/${encodeURIComponent(record.filename)}`;audio.setAttribute('aria-label',`${record.title} 녹음 재생`);
+          const audio=document.createElement('audio');audio.controls=true;audio.preload='none';audio.src=URL.createObjectURL(record.audio);audio.setAttribute('aria-label',`${record.title} 녹음 재생`);
           const actions=node('div','record-actions');const errorEl=node('div','report-note','생성 시 녹음이 Groq API로 전송됩니다. 파일당 25MB까지 처리할 수 있습니다.');
           const generate=makeButton(record.report?'보고서 다시 생성':'상담보고서 생성',()=>generateReport(record,generate,errorEl));
-          const statusPromise=fetch('/api/status').then(r=>r.json()).catch(()=>({groqConfigured:false}));
-          statusPromise.then(status=>{if(!status.groqConfigured){generate.disabled=true;errorEl.textContent='Groq API 키가 서버에 설정되지 않았습니다. .env.local을 확인하고 서버를 다시 시작해주세요.';}});
+          if(record.size>4*1024*1024){generate.disabled=true;errorEl.textContent='4MB 초과 녹음은 Vercel 함수 요청 한도 때문에 AI 처리할 수 없습니다. 녹음 원본은 브라우저에 보존됩니다.';}
           actions.append(generate);card.append(top,audio,actions,errorEl);
           if(record.transcript||record.report){
             const panel=node('div','report-panel');
